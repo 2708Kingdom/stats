@@ -5,3 +5,5 @@ google-auth-oauthlib
 pandas
 watchdog
 millify
+plotly
+plotly-express
