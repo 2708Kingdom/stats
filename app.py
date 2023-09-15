@@ -77,5 +77,9 @@ with individual_tab:
             value=millify(selected_player["total_dead_points"]),
             help="Total dead points calculated based on dead T4 and T5 troops",
         )
-
+        if "sid" in selected_name.lower():
+            st.image(
+                "https://lumiere-a.akamaihd.net/v1/images/ct_iceage_sid_21464_10f2d363.jpeg",
+                use_column_width=True,
+            )
     stats["size"] = 1
