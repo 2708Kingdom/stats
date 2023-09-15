@@ -36,18 +36,18 @@ with st.container():
     cols[1].metric(
         label="Total Score",
         value=millify(selected_player["total_score"]),
-        delta="10%",
+        # delta="10%",
     )
     cols[2].metric(
         label="Total Kill Points",
         value=millify(selected_player["total_kill_points"]),
-        delta="30%",
+        # delta="30%",
     )
     cols[3].metric(
         label="Total Dead Points",
         value=millify(selected_player["total_dead_points"]),
         help="Total dead points calculated based on dead T4 and T5 troops",
-        delta="-40%",
+        # delta="-40%",
     )
 
 stats["size"] = 1
