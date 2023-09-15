@@ -83,3 +83,8 @@ with individual_tab:
                 use_column_width=True,
             )
     stats["size"] = 1
+
+
+suggestion_box = st.text_input("Make a suggestion or leave your feedback here")
+if suggestion_box:
+    st.write("Fine why don't you do it then? :angry:")
