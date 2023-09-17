@@ -1,0 +1,1 @@
+LOGO = "assets/logo.png"
