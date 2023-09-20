@@ -5,3 +5,7 @@ install:
 		pip install -U pip wheel;\
 		pip install -r requirements.txt;\
 	)
+run:
+	@(\
+		streamlit run Home.py;\
+	)
